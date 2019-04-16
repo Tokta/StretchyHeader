@@ -1,6 +1,7 @@
 # StretchyHeader
 Example of how to create a strechable header for your UIScrollView.
 
+![](StretchDemo.gif)
 ## StretchyGradient
 Create the stretchy UIView with a gradient on top of the UIScrollView.
 
