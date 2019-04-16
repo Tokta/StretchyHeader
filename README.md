@@ -51,4 +51,4 @@ Example:
         
         //set scroll content size bigger than the scroll size, so you can scroll
         scroll.contentSize = CGSize(width: 10, height: scroll.frame.size.height*2)
-        ``` 
+``` 
