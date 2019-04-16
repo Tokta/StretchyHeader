@@ -11,8 +11,7 @@ Create the stretchy UIImageView UIView on top of the UIScrollView
 
 Example:
 
-´´´
-        
+```swift 
         //Create a background view
         let background = UIView(frame: CGRect(x: 20, y: 50, width: self.view.frame.size.width - 40, height: self.view.frame.size.height - 100))
         background.backgroundColor = .red
@@ -52,4 +51,4 @@ Example:
         
         //set scroll content size bigger than the scroll size, so you can scroll
         scroll.contentSize = CGSize(width: 10, height: scroll.frame.size.height*2)
-        
+        ``` 
