@@ -12,6 +12,14 @@ final class StretchyImageView: UIView {
     
     private var imageView: UIImageView!
     
+    /**
+     Init StretchyImageView with frame and image.
+     
+     - Parameters:
+        - frame: frame of the StretchyImageView
+        - image: image to display
+     
+     */
     init(frame: CGRect, image: UIImage) {
         
         super.init(frame: frame)
@@ -24,6 +32,13 @@ final class StretchyImageView: UIView {
         
     }
     
+    /**
+     Call this method to make the image view stretchy
+     
+     - Parameters:
+        - bindTopToView: usually the UIScrollView superclass
+     
+     */
     public final func makeImageStretchy(bindTopToView binder: UIView) {
         
         self.imageView.snp.makeConstraints { (make) in

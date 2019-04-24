@@ -11,7 +11,15 @@ import SnapKit
 final class StretchyGradient: UIView {
     
     var gradient: CAGradientLayer!
-    
+    /**
+     Init StretchyGradient with frame and colors.
+     
+     - Parameters:
+        - frame: frame of the StretchyGradient
+        - color1: top gradient color
+        - color2: bottom gradient color
+     */
+
      init(frame: CGRect, color1: UIColor, color2: UIColor) {
         
         super.init(frame: frame)
